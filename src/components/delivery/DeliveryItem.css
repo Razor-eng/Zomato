@@ -1,0 +1,26 @@
+.delivery-item-cover {
+  height: 190px;
+  width: 190px;
+  background-color: var(--collection-bg);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.delivery-item-image {
+  object-fit: cover;
+  height: 80%;
+  width: 80%;
+  border-radius: 100%;
+}
+
+.delivery-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
